@@ -1,13 +1,16 @@
+/* An initial box-sizing is set to the page  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets the main backgound color to #d9dcd6 */
 body {
     background-color: #d9dcd6;
 }
 
+/* Adds styling to the header section */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,11 +18,13 @@ body {
     color: #ffffff;
 }
 
+/* Changes the font size and position of the h1 heading */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Gives the header nav bar positioning aswell as unique font and font-size. Also adds margins and padding. */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -28,24 +33,29 @@ body {
     font-size: 20px;
 }
 
+/* deletes the bullet listing for the nav links */
 .header nav ul {
     list-style-type: none;
 }
 
+/* adds display setting to respect margin and padding. also adds left margin limit to respect each link and add space. */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* adds color #ffffff to the text and removes underline from links. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* changes font size. */
 p {
     font-size: 16px;
 }
 
+/* adds an image aswell as respective margins and positioning to the hero class. */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,22 +65,26 @@ p {
     background-position: center;
 }
 
+/* forces image to the left positioning to the respective images aswell as a right sided margin limiter. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* forces image to right positioning to the respective image aswell as a left sided margin limiter. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* adjusts positioning for the 3 main sections. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* positions the benefits class to the right side of the page with changes to text aswell as background color. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -82,17 +96,20 @@ p {
     background-color: #2589bd;
 }
 
+/* changes the color of the text and adds a bottom margin to repect spacing. */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* adds a block display forf positioning as well as a width limiter. sets margin to repect spacing. */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* changes margins, padding, and height to add positioning details. Changes the background color and font style and colors. */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -102,15 +119,18 @@ p {
     color: #ffffff;
 }
 
+/* sets a max image height to respect positioning. */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
+/* adds a margin and font-size to repect positioning within the section. */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* adds a padding to the footer, changes font and aligns text. */
 .footer {
     padding: 30px;
     clear: both;
@@ -118,6 +138,7 @@ p {
     text-align: center;
 }
 
+/* changes font size */
 .footer h2 {
     font-size: 20px;
 }
